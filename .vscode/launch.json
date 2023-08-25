@@ -8,11 +8,20 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Exemplo",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/exemplo.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Exercicio",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/exercicio.js"
         }
     ]
 }
